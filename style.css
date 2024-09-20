@@ -1,0 +1,227 @@
+@font-face {
+    font-family: Kanit;
+    src: url(font/Kanit-Regular.ttf);
+}
+
+@font-face {
+    font-family: KanitLight;
+    src: url(font/Kanit-Light.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.lnw_chat_body {
+    position: relative;
+    top: 10px;
+    left: 10px;
+    width: 350px;
+    min-height: 55px;
+    border-radius: 8px;
+    background: linear-gradient(90deg, #101317 0%, #57677D 141.67%);
+    margin-bottom: 10px;
+}
+
+.lnw_chat_img img {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 45px;
+    height: 45px;
+    border-radius: 6px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.lnw_chat_name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 8px;
+    left: 60px;
+    font-family: Kanit;
+    color: #eee;
+    font-size: 14px;
+}
+
+.brage {
+    /* display: flex; */
+    margin: 0px 5px 0px 5px;
+}
+
+.brage-text p {
+    font-size: 10px;
+}
+
+.brage-color {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 55px;
+    height: 15px;
+    background: linear-gradient(86deg, #2657B8 0%, #112752 100%);
+    border-radius: 2px;
+}
+
+.lnw_chat_text {
+    display: flex;
+    padding: 30px 0px 10px 60px;
+    word-wrap: break-word;
+    width: 350px;
+    /* background-color: aqua; */
+    font-family: KanitLight;
+    color: #eee;
+    font-size: 12px;
+}
+
+.lnw_chat_text_img {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 0px 10px 60px;
+    word-wrap: break-word;
+    width: 460px;
+    /* background-color: aqua; */
+    font-family: KanitLight;
+    color: #eee;
+    font-size: 12px;
+}
+
+.img-photo img {
+    width: 200px;
+    margin-top: 6px;
+    border-radius: 6px;
+}
+
+.lnw_chat_time {
+    position: absolute;
+    top: 4px;
+    right: 8px;
+    font-family: KanitLight;
+    color: #eee;
+    font-size: 12px;
+}
+
+.brage-color.vip {
+    background: linear-gradient(86deg, #B89826 0%, #524011 100%);
+}
+
+.lnw_chat_body.vip {
+    background: linear-gradient(90deg, #101317 0%, #7D6E57 141.67%);
+}
+
+.brage-color.boost {
+    background: linear-gradient(86deg, #5526B8 0%, #261152 100%);
+}
+
+.lnw_chat_body.boost {
+    background: linear-gradient(90deg, #101317 0%, #63577D 141.67%);
+}
+
+.brage-color.vip_boost {
+    background: linear-gradient(86deg, #5526B8 0%, #261152 100%);
+}
+
+.lnw_chat_body.vip_boost {
+    background: linear-gradient(90deg, #101317 0%, #7D6E57 141.67%);
+}
+
+/* ------------------------------------ */
+
+.brage-color.unicon {
+    background: linear-gradient(86deg, #5526B8 0%, #261152 100%);
+
+}
+
+.lnw_chat_body.unicon {
+    /* background: linear-gradient(90deg, #101317 0%, #7D6E57 141.67%); */
+    background: url('chat_theam/unicorn_pattern_10.png') repeat;
+    background-color: #2b0114;
+    background-size: 40%;
+
+}
+
+
+/* ----------------- Police ------------------- */
+
+.lnw_chat_body.police {
+    background: linear-gradient(90deg, #101317 0%, #2136A6 141.67%);
+}
+
+.lnw_chat_img.police img {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 40px;
+    height: 40px;
+}
+
+.brage-color.police {
+    width: 75px;
+    height: 15px;
+    background: linear-gradient(86deg, #2657B8 0%, #112752 100%);
+}
+
+/* ----------------- Ambulance ------------------- */
+
+.lnw_chat_body.ambulance {
+    background: linear-gradient(90deg, #101317 0%, #C71A1A 141.67%);
+}
+
+.lnw_chat_img.ambulance img {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 40px;
+    height: 40px;
+}
+
+.brage-color.ambulance {
+    width: 75px;
+    height: 15px;
+    background: linear-gradient(90deg, #C71A1A 0%, #410202 141.67%);
+}
+
+/* ----------------- Council ------------------- */
+
+.lnw_chat_body.council {
+    background: linear-gradient(90deg, #101317 0%, #DDA147 141.67%);
+}
+
+.lnw_chat_img.council img {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 40px;
+    height: 40px;
+}
+
+.brage-color.council {
+    width: 75px;
+    height: 15px;
+    background: linear-gradient(90deg, #DDA147 0%, #523202 141.67%);
+}
+
+/* ----------------- GM ------------------- */
+
+.lnw_chat_body.gm {
+    background: linear-gradient(90deg, #101317 0%, #2657B8 141.67%);
+}
+
+.lnw_chat_img.gm img {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 40px;
+    height: 40px;
+}
+
+.brage-color.gm {
+    width: 75px;
+    height: 15px;
+    background: linear-gradient(90deg, #2657B8 0%, #0c1d3f 141.67%);
+}
